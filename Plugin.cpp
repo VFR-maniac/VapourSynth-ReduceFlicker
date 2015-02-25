@@ -164,7 +164,7 @@ VS_EXTERNAL_API( void ) VapourSynthPluginInit
     config_func
     (
         "systems.innocent.reduceflicker", "reduceflicker",
-        "ReduceFlicker" VSREDUCEFLICKER_REV,
+        "ReduceFlicker rev" VSREDUCEFLICKER_REV "-" VSREDUCEFLICKER_GIT_HASH,
         VAPOURSYNTH_API_VERSION, 1, plugin
     );
     register_func
